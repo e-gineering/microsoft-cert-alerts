@@ -1,0 +1,27 @@
+# run every day or with manual invocation
+on:
+  schedule:
+    # Run at 14:00 UTC every weekday, which will be 9am or 10am Eastern time, depending on daylight savings
+    # https://crontab.guru/#0_14_*_*_1-5
+    - cron: "0 14 * * 1-5"
+  # Allow the Action to be manually triggered
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.12
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run script
+        run: python main.py
