@@ -1,5 +1,5 @@
 <h2 align="center">microsoft-cert-alerts</h2>
-<h3 align="center">Get notified when your certs are about to expire</h2>
+<p align="center">Get notified when your certs are about to expire</p>
 
 ## About
 
