@@ -12,3 +12,7 @@ To add yourself to the list, add an entry to the `users` list in the [`certifica
 The `email` can be any email address you want to receive alerts at, and you should be able to find the `credentialId` for each cert in your Microsoft Learn profile here:
 
 https://learn.microsoft.com/en-us/users/me/credentials?tab=credentials-tab
+
+## Unit tests
+
+To run the unit tests, run this command from the terminal: `python -m unittest discover`
