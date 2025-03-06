@@ -9,3 +9,7 @@ users:
       - credentialId: DE2695B4EA79C6A4 # AI-102
       - credentialId: 577A4D3B46653216 # AZ-204
       - credentialId: A7BBFAED2463FDB9 # AZ-400
+  - email: robbie.page@e-gineering.com
+    certifications:
+      - credentialId: 1C4DB972312A16E4 # AZ-104
+      - credentialId: BF63AC2E28AFD6E5 # AZ-305
