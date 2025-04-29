@@ -4,6 +4,7 @@ users:
       - credentialId: D56FD78AFC38824E # AZ-104
       - credentialId: 4D8D56D8AF85CB17 # AZ-305
       - credentialId: A28609218ABEA962 # DP-600
+      - credentialId: 3660A4761A7FAC3C # DP-700
   - email: brad.russell@e-gineering.com
     certifications:
       - credentialId: DE2695B4EA79C6A4 # AI-102
