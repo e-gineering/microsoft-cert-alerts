@@ -1,0 +1,12 @@
+.git
+.github
+.env
+*.log
+__pycache__
+*.pyc
+.pytest_cache
+.venv
+README.md
+test_main.py
+Taskfile.yaml
+.devcontainer
