@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 import requests
 import yaml
 from datetime import datetime, timedelta
@@ -68,7 +69,7 @@ def is_weekend(date):
 
 def main():
     print("Parsing the certifications.yaml file")
-    with open("certifications.yaml", "r") as config_file:
+    with open(Path(__file__).parent / "certifications.yaml", "r") as config_file:
         config = yaml.safe_load(config_file)
 
     users = config["users"]
