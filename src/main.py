@@ -62,7 +62,7 @@ def generate_expiration_email_body(certification_title: str, days_until_expirati
     :param days_until_expiration: The number of days until the certification expires
     :return: The email body content
     """
-    return f"This is a reminder that your certification **{certification_title}** is expiring in {days_until_expiration} days."
+    return f"<p>This is a reminder that your certification <strong>{certification_title}</strong> is expiring in {days_until_expiration} days.</p>"
 
 def is_weekend(date):
     return date.weekday() > 4
